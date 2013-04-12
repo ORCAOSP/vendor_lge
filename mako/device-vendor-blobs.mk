@@ -1,4 +1,4 @@
-# Copyright (C) 2010 The Android Open Source Project
+# Copyright (C) 2012 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,8 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# something
-PRODUCT_COPY_FILES := \
+# This file was generated from device/lge/mako/proprietary-blobs.txt
+
+PRODUCT_COPY_FILES += \
     vendor/lge/mako/proprietary/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/lge/mako/proprietary/bridgemgrd:system/bin/bridgemgrd \
     vendor/lge/mako/proprietary/btnvtool:system/bin/btnvtool \
@@ -177,4 +178,3 @@ PRODUCT_COPY_FILES := \
     vendor/lge/mako/proprietary/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/lge/mako/proprietary/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/lge/mako/proprietary/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so
-
